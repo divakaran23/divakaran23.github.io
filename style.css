@@ -1,0 +1,128 @@
+
+/*-----Default styles for the document-----*/
+body {
+	font-family: 'trebuchet MS', 'Lucida sans', Arial;
+	font-size: 14px;
+	background:#FFF;
+	color:#222;
+	
+}
+/*-----Style when selection is made in the webpage-----*/
+::selection {
+background: #e1704b;
+color: #FFF;
+text-shadow: 0 1px 1px #000;
+}
+
+/*-----Page Styles-----*/
+h1, h2, h3, h4, h5, h6{font-family: 'Akzidenz Bold'; font-weight:normal;  text-shadow:none !important;}
+.work_heading{color: #FFF; text-align: left;}
+p, a{font-family:"trebuchet MS', 'Lucida sans', Arial;"; font-size: 16px; line-height:21px; text-shadow:none !important; outline:none !important;}
+.clear{clear:both;}
+.page_title{text-align:center; font-size:60px; line-height:67px; font-family: 'Open_Sans_R'; font-weight:normal; color:#CCC; margin-bottom: 20px; padding-bottom: 10px}
+.sub_heading{font-size:2em; padding:15px 0px; line-height:1em; font-weight: bold;}
+.small_btn{padding:7px 9px; background:#222; color:#FFF; border:none;}
+.graph_class{
+    margin-top: 50px;
+ margin-bottom: 30px;   
+}
+/*---------------------HOME PAGE STYLES---------------------*/
+.intro{ margin-top:166px; }
+.intro2{ margin-top:150px; }
+.welcome_txt{margin-top:120px;}
+.welcome_txt .page_title{text-align:left; color:rgb(173, 173, 173);}
+.welcome_txt  p{margin-top:10px;font-size: 18px;}
+.welcome_txt .small_btn:hover{background:#e1704b; color:#FFF; text-decoration: none;}
+.welcome_promo{position:relative;}
+.welcome_promo .big_circle{width:270px; height:270px; border-radius:50%;  -moz-border-radius:50%; -webkit-border-radius:50%; -o-border-radius:50%; -ms-border-radius:50%; background: #e1704b url(../images/big_circle_bg.png) no-repeat; background-size:100%; right:0px; top:20px; position:absolute; color:#FFF; text-align:center; -webkit-transition: all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-ms-transition:all 0.3s ease-in;-o-transition: all 0.3s ease-in;-transition: all 0.3s ease-in; overflow:hidden;}
+
+/*--------styling For sales report pages----------*/
+.welcome_txt1{margin-top:70px;}
+.welcome_txt1 .page_title{text-align:left; color:rgb(173, 173, 173);}
+.welcome_txt1  p{margin-top:10px;font-size: 18px;}
+.welcome_txt1 .small_btn:hover{background:#e1704b; color:#FFF;text-decoration: none;}
+.welcome_promo .big_circle1{ width:270px; height:270px; border-radius:30%;  -moz-border-radius:50%; -webkit-border-radius:50%; -o-border-radius:50%; -ms-border-radius:50%; background: url(../images/sales.jpeg) no-repeat; background-size:100%; right:0px; top:20px; position:absolute; overflow:hidden;}
+.big_circle .sub_heading{margin-top:150px; -webkit-transition: all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-ms-transition:all 0.3s ease-in;-o-transition: all 0.3s ease-in;-transition: all 0.3s ease-in; overflow:hidden; color:#FFF; font-family: 'Akzidenz Light'; text-transform:uppercase; margin-bottom:-10px;}
+.big_circle p{display:none; width:60%; margin:0 auto; font-size:16px; line-height:19px; color:#FFF;background-color: #e1704b}
+.big_circle:hover{background-position:0 -100px;}
+.big_circle:hover > .sub_heading{margin-top:60px;}
+.big_circle .sub_heading span{color:#222;}
+
+/*-----Header and Navigation styles-----*/
+header{width:100%; height:auto; background:url(../images/header_bg.png) repeat left top;padding:50px 0px; position:fixed; top:0; left:0; z-index:999; box-shadow: 0px 2px 15px #CCC !important;-webkit-box-shadow: 0px 2px 15px #CCC !important; -moz-box-shadow: 0px 2px 15px #999 !important; -o-box-shadow: 0px 2px 15px #999 !important; -ms-box-shadow: 0px 2px 15px #999 !important;}
+header .logo_holder{width:auto; float:left;}
+header nav{width:auto; float:right; margin-top:20px;}
+header nav a{display:block; width:auto; float:left; margin-left:20px;font-size:20px; color:#222;}
+header nav a:link{color:#222; text-decoration: none}
+header nav a:visited{color:#222; text-decoration: none}
+header nav a:hover, .def-link{color:#e1704b; text-decoration:none;}
+header nav a:active{color:#e1704b;text-decoration: none; }
+.mobile-nav{margin-right:10px;}
+.page{width:100%; height:auto; margin-top:170px;}
+
+
+
+/*-----Media styles for different screen sizes------*/
+@media (max-width: 460px) {
+  .mobile-nav select{width:100px;}
+}
+
+@media (max-width: 768px) {
+  .page{padding-top:100px; margin-top:0px;}
+    .intro{background:#FFF; }
+  .welcome_txt{margin-top:0px !important;}
+}
+
+@media (max-width: 780px) {
+  .team{text-align:center;}
+}
+
+@media (min-width: 1200px) {
+  .span12, .container {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .welcome_promo .big_circle{width:170px; height:170px;}
+  .big_circle .sub_heading{margin-top:100px; margin-bottom:5px;}
+  .big_circle p span, .big_circle p br{display:none;}
+  .big_circle:hover{background-position:0 -50px;}
+  .big_circle:hover > .sub_heading{margin-top:40px;}
+}
+
+/*---------------------ABOUT SECTION STYLES---------------------*/
+.about_txt{margin-top:25px; margin-bottom:90px;}
+.team{margin-top:30px; margin-bottom:100px;}
+.team .sub_heading{color:#e1704b;}
+.quick_connect{background: #e1704b; padding: 70px 0px 80px 0px; text-align:center; margin-bottom:98px;}
+.quick_connect .page_title{color:#FFF; margin-bottom:45px;}
+
+
+/*---------------------FEATURES SECTION STYLES---------------------*/
+
+.nav-tabs{margin-bottom:0px; padding-bottom:0px; border-bottom:none;}
+.nav-tabs li a{background:#FFF; color:#222; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; -o-border-radius: 0px; -ms-border-radius: 0px; margin-bottom:1px;}
+.nav-tabs li.active a, .nav-tabs li.active a:hover, .nav-tabs li a:hover{background:#CCC; text-decoration:none; color:#FFF;}
+.tab-pane{padding:15px; border:1px solid #E5E5E5;}
+.list-group-item{color: #FFF; background-color:#e1704b; border: none; text-align: left; font-size: 16px; }
+
+/*---------------------CONTACT SECTION STYLES---------------------*/
+.contact{margin-bottom:50px; margin-top:40px;}
+.contact_info {margin-bottom:50px;}
+.contact_info p{margin-bottom:20px;}
+
+/*---------------------FOOTER STYLES---------------------*/
+footer{background:rgb(100, 100, 100); color:#FFF; padding-top:15px; padding-bottom:10px; text-align:center;}
+footer a{display: inline; margin: 0 10px 0 10px;}
+
+/* small button*/
+.small_btn1{padding:7px 9px; background:#222; color:#FFF; border:none;}
+.small_btn1:hover{text-decoration:none; background:#fff; color:#e80000;}
+/* small button ends here*/
+
+/* stylesheet for email link*/
+.new11 {}
+.new11 a{text-decoration: none; color: #000;}
+.new11 a:hover{color: #e1704b;}
+/* email links ends here*/
