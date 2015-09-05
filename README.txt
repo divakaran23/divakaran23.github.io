@@ -1,27 +1,25 @@
 
 READ ME
 
-This directory contains the webpage files version 1.0 11/22/2014
+My Webpage version 2.0
 
 WHAT IS IT?
 -----------
-A simple and creative responsive webpage displaying my current resume.
-The resume page contains several javascript functions to make the page dynamic and interactive. The webpage is filled with colors and images to make it look professional. 
-It also provideseasy navigation within the page. 
+A simple and creative responsive webpage about myself along with my skills and experience.
+The webpage contains several javascript functions to make the page dynamic and interactive. The webpage is filled with colors and images to make it look professional. 
+It also provides easy navigation within the page. 
 
 INSTALLATION AND USAGE
 -----------------------
-The website requires a web browser to view the web pages in it. 
-The website folder can be stored anywhere in the computer. The file 
-index.html is the first file which contains resume. 
+The webpage requires a web browser to view it. 
 
 DEVELOPMENT
 -----------
-The website is developed using a text editor called BRACKETS. All the html
-and css files are created in it. The webpages are written in HTML5, CSS3, 
+The webpage is developed using a text editor called BRACKETS. All the html
+and css files are created using it. The webpage is written in HTML5, CSS3, 
 JavaScript and Jquery. Several open source libraries and development frameworks 
-are used to make the website more dynamic and interactive. The frameworks are
-also used to beautify the webpages. The libraries and frameworks used are
+are used to make the webpage more dynamic and interactive. The frameworks are
+also used to beautify the webpage. The libraries and frameworks used are
 listed below. 
 
 LIBRARIES AND FRAMEWORKS
@@ -46,7 +44,7 @@ FEATURES
 
 TESTING
 -------
-The website is tested in google chrome and safari web browsers. All the content
+The webpage is tested in google chrome and safari web browsers. All the content
 and styling appears intact irrespective of the screen size (desktop and 
 mobile).
 
@@ -59,11 +57,11 @@ index.html
 1.Resume
 	1.Header
 		1.Header navigation links
-	2.Welcome to my Resume
+	2.Welcome to my webpage
 		1.Big circle contact me
-	3.Objective
+	3.About me
 		1.Image
-		2.Objective Text
+		2.About me Text
 	4.Skills
 		1.Tab bar navigation
 			1.Languages
@@ -72,16 +70,18 @@ index.html
 			4.Other tools
 	5.Projects
 		1.Collapsable panel
-			1.Online Internal revenue Service
-			2.Employee database
-			3.PhotoMania
-			4.Task Assignment
-			5.Pirate Adventure
-			6.Detecting DDoS Attacks using C4.5 Algorithm	
+			1. Online Book Store
+			2. Online Internal revenue Service
+			3. Employee database
+			4. PhotoMania
+			5. Task Assignment
+			6. Pirate Adventure
+			7. Detecting DDoS Attacks using C4.5 Algorithm	
 	6.Work Experience
 		1.Tab bar navigation
-			1.AskMDx
-			2.NimbleHeart,Inc
+			1. The MathWorks
+			2. AskMDx
+			2. NimbleHeart,Inc
 	7.Course work
 		1.Table
 	8.Contact
